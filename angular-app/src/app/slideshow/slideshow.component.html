@@ -1,0 +1,14 @@
+<p (click)="carousel.leftBy(2)">Left by 2</p>
+<p (click)="carousel.left()">Left</p>
+<p (click)="carousel.goTo(0)">Go to the Start</p>
+<ngx-slideshow #carousel [cards]="3" [cardSize]="'350px'" [padding]="'14px'">
+  <li><img src="http://via.placeholder.com/350x150"></li>
+  <li><img src="http://via.placeholder.com/350x150"></li>
+  <li><img src="http://via.placeholder.com/350x150"></li>
+  <li><img src="http://via.placeholder.com/350x150"></li>
+  <li><img src="http://via.placeholder.com/350x150"></li>
+  <li><img src="http://via.placeholder.com/350x150"></li>
+</ngx-slideshow>
+<p (click)="carousel.goTo(5)">Go to the End</p>
+<p (click)="carousel.right()">Right</p>
+<p (click)="carousel.rightBy(2)">Right by 2</p>

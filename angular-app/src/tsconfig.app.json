@@ -1,0 +1,19 @@
+{
+  "extends": "../tsconfig.json",
+  "compilerOptions": {
+    "outDir": "../out-tsc/app",
+    "baseUrl": "./",
+    "module": "es2015",
+    "types": []
+  },
+  "include": [    
+    "**/*.ts",    
+    "../node_modules/angular-bootstrap-md/index.ts",
+    "../node_modules/ngx-slideshow/bundles/ngx-slideshow.umd.js",
+    "../node_modules/ngx-gallery/bundles/ngx-gallery.umd.js"
+  ],
+  "exclude": [
+    "test.ts",
+    "**/*.spec.ts"
+  ]
+}
