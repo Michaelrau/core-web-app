@@ -10,7 +10,8 @@
     "**/*.ts",    
     "../node_modules/angular-bootstrap-md/index.ts",
     "../node_modules/ngx-slideshow/bundles/ngx-slideshow.umd.js",
-    "../node_modules/ngx-gallery/bundles/ngx-gallery.umd.js"
+    "../node_modules/ngx-gallery/bundles/ngx-gallery.umd.js",
+    "../node_modules/ngx-carousel/bundles/ngxcarousel.umd.js"    
   ],
   "exclude": [
     "test.ts",

@@ -13,7 +13,10 @@ import { NgxSlideshowModule } from 'ngx-slideshow';
 import { SlideshowComponent } from './slideshow/slideshow.component';
 import { NgxGalleryModule } from 'ngx-gallery';
 import { GalleryComponent } from './gallery/gallery.component';
-
+import { CarouselComponent } from './carousel/carousel.component';
+import { BannerSlideshowComponent } from './banner-slideshow/banner-slideshow.component';
+import { NgxCarouselModule } from 'ngx-carousel';
+import 'hammerjs';
 
 @NgModule({
   declarations: [
@@ -25,13 +28,16 @@ import { GalleryComponent } from './gallery/gallery.component';
     HeaderComponent,
     MainContentComponent,
     SlideshowComponent,
-    GalleryComponent
+    GalleryComponent,
+    CarouselComponent,
+    BannerSlideshowComponent
   ],
   imports: [
     BrowserModule,
     MDBBootstrapModule.forRoot(),
     NgxSlideshowModule.forRoot(),
     NgxGalleryModule,
+    NgxCarouselModule,
     AgmCoreModule.forRoot({
       apiKey: 'AIzaSyDfNfKaxNbWxM_Xl9sJqnHb9Z3V4FyakRI'
     })    
