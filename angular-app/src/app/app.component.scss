@@ -1,0 +1,10 @@
+.main-slider .main-slider-bar {
+    background: #F66249;
+    color: #FFF;
+}
+
+@media (max-width: 767px) {
+    .hidden-xs {
+        display: none !important;
+    }
+}

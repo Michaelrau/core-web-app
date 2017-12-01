@@ -9,7 +9,6 @@ import { AgmCoreModule } from '@agm/core';
 import { FooterComponent } from './footer/footer.component';
 import { HeaderComponent } from './header/header.component';
 import { MainContentComponent } from './main-content/main-content.component';
-import { NgxSlideshowModule } from 'ngx-slideshow';
 import { SlideshowComponent } from './slideshow/slideshow.component';
 import { NgxGalleryModule } from 'ngx-gallery';
 import { GalleryComponent } from './gallery/gallery.component';
@@ -17,6 +16,8 @@ import { CarouselComponent } from './carousel/carousel.component';
 import { BannerSlideshowComponent } from './banner-slideshow/banner-slideshow.component';
 import { NgxCarouselModule } from 'ngx-carousel';
 import 'hammerjs';
+import { CardsComponent } from './cards/cards.component';
+import { MainSliderComponent } from './main-slider/main-slider.component';
 
 @NgModule({
   declarations: [
@@ -30,12 +31,13 @@ import 'hammerjs';
     SlideshowComponent,
     GalleryComponent,
     CarouselComponent,
-    BannerSlideshowComponent
+    BannerSlideshowComponent,
+    CardsComponent,
+    MainSliderComponent
   ],
   imports: [
     BrowserModule,
     MDBBootstrapModule.forRoot(),
-    NgxSlideshowModule.forRoot(),
     NgxGalleryModule,
     NgxCarouselModule,
     AgmCoreModule.forRoot({
